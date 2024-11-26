@@ -1,3 +1,5 @@
+# .\elasticsearch_backup.ps1 -esUser "USER" -esPassword "PASSWORD" -esHost "HOST" -backupDestination "DEST" -retentionDays 30
+
 param(
     [string]$esUser,
     [string]$esPassword,
